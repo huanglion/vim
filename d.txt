@@ -1,0 +1,5 @@
+ 要先CD到GIT的库目录 如库叫VIM 要到VIM目录，并确认里面有个 .git文件夹
+ git remote add akkk git@github.com:userName/RepositorName.git # userName就是用户名了，里面建立了一个库叫RepositorName
+ 再git add abc.def #abc.def是要更新的文件或者目录。
+ 再为此次提交命名git commit -m "something"
+ 最后就是推送了 git push akkk source # akkk 是前面的本地－远程库连接的名 source 就是那个库的分支了
